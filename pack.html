@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sèvis Kat - Les Cayes Dropshipping</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <style>
+        :root {
+            --fon-gri: #2c2f33;
+            --ka-gri: #1a1f26;
+            --wise-blue: #00b9ff;
+            --wise-orange: #ff9800;
+            --blanc: #ffffff;
+            --vèt-check: #4caf50;
+            --rose-pale: #ff99cc;
+        }
+
+        body {
+            font-family: 'Century Gothic', AppleGothic, sans-serif;
+            background-color: var(--fon-gri);
+            color: #e0e0e0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            color: var(--blanc);
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #b0b0b0;
+            font-size: 0.95em;
+            line-height: 1.4;
+        }
+
+        .pricing-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .pricing-card {
+            border-radius: 15px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        }
+
+        .card-blue { background: linear-gradient(135deg, #0056b3, #00b9ff); }
+        .card-orange { background: linear-gradient(135deg, #e67e22, #ff9800); }
+
+        .card-header {
+            padding: 20px;
+            text-align: center;
+            color: var(--blanc);
+            font-size: 1.4em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .card-body {
+            background-color: var(--blanc);
+            margin: 0 15px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            color: #333;
+            font-size: 0.85em;
+            margin-bottom: 12px;
+        }
+
+        .feature-item .material-icons {
+            font-size: 18px;
+            margin-right: 10px;
+            color: var(--vèt-check);
+        }
+
+        .card-footer {
+            padding: 20px;
+            text-align: center;
+            color: var(--blanc);
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            opacity: 0.7;
+            font-size: 1em;
+            display: block;
+        }
+
+        .current-price {
+            font-size: 1.8em;
+            font-weight: bold;
+            display: block;
+            margin: 5px 0;
+        }
+
+        .select-btn {
+            background-color: rgba(0,0,0,0.3);
+            border: 1px solid var(--blanc);
+            color: var(--blanc);
+            padding: 10px 30px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .agent-section {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: var(--ka-gri);
+            border-radius: 15px;
+        }
+
+        .agent-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--wise-blue);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .cta-agent {
+            font-weight: bold;
+            color: var(--rose-pale);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        @keyframes bounceDown {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(5px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-section">
+            <h1 class="main-title">Sèvis kat Visa</h1>
+            <p class="subtitle">Pwofite pi bon tarif pou kreyasyon ak rechaj kat vityèl paw lan jodi a.</p>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="pricing-card card-blue">
+                <div class="card-header">Kreyasyon</div>
+                <div class="card-body">
+                    <div class="feature-item"><span class="material-icons">check</span><span>Rechaje ak Moncash / Natcash.</span></div>
+                    <div class="feature-item"><span class="material-icons">check</span><span>Achte sou entènèt (Shein, FB, Temu..).</span></div>
+                    <div class="feature-item"><span class="material-icons">check</span><span>Resevwa lajan entènasyonal.</span></div>
+                </div>
+                <div class="card-footer">
+                    <span class="old-price">2500 HTG</span>
+                    <span class="current-price">1000 HTG</span>
+                    <button class="select-btn">Chwazi</button>
+                </div>
+            </div>
+
+            <div class="pricing-card card-orange">
+                <div class="card-header">Rechaje</div>
+                <div class="card-body">
+                    <div class="feature-item"><span class="material-icons">check</span><span>Rechaje nan mwens ke 1 h!</span></div>
+                    <div class="feature-item"><span class="material-icons">check</span><span>Ou ka bay kòb kach.</span></div>
+                    <div class="feature-item"><span class="material-icons">check</span><span>Sipò 24/7 pou tranzaksyon w.</span></div>
+                </div>
+                <div class="card-footer">
+                    <span class="old-price">Taux: 147 HTG</span>
+                    <span class="current-price">Taux: 140 HTG</span>
+                    <button class="select-btn">Chwazi</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="agent-section">
+            <span class="cta-agent">Kontakte ajan sila pou sèvis la</span>
+            <div style="animation: bounceDown 1.5s infinite; color: var(--rose-pale); margin: 5px 0;">↓</div>
+            <a href="https://wa.me/50935608869">
+                <img src="Francesse Gabriel.jpg" alt="Francesse Gabriel" class="agent-img">
+            </a>
+            <p style="font-size: 0.9em; color: var(--blanc); margin-top: 10px; font-weight: bold;">
+                Francesse Gabriel
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
